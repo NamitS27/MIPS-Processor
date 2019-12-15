@@ -5,7 +5,7 @@
 What things you need to run the project
 
 ```
-Xlinx
+Xilinx
 Verilog
 ```
 
