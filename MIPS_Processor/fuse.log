@@ -1,0 +1,55 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/Namit/Desktop/MIPS/MIPS_Proessor/MIPS_16_bit_Processor_tb_isim_beh.exe -prj C:/Users/Namit/Desktop/MIPS/MIPS_Proessor/MIPS_16_bit_Processor_tb_beh.prj work.MIPS_16_bit_Processor_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Namit/Desktop/MIPS/MIPS_Proessor/ipcore_dir/Program_Mem_Block.v" into library work
+Analyzing Verilog file "C:/Users/Namit/Desktop/MIPS/MIPS_Proessor/ipcore_dir/dataMemory.v" into library work
+Analyzing Verilog file "C:/Users/Namit/Desktop/MIPS/MIPS_Proessor/data_dependency.v" into library work
+Analyzing Verilog file "C:/Users/Namit/Desktop/MIPS/MIPS_Proessor/booth_multiplication.v" into library work
+Analyzing Verilog file "C:/Users/Namit/Desktop/MIPS/MIPS_Proessor/WriteBack.v" into library work
+Analyzing Verilog file "C:/Users/Namit/Desktop/MIPS/MIPS_Proessor/stall_control.v" into library work
+Analyzing Verilog file "C:/Users/Namit/Desktop/MIPS/MIPS_Proessor/reg_bank.v" into library work
+Analyzing Verilog file "C:/Users/Namit/Desktop/MIPS/MIPS_Proessor/Program_Memory.v" into library work
+Analyzing Verilog file "C:/Users/Namit/Desktop/MIPS/MIPS_Proessor/jump_control.v" into library work
+Analyzing Verilog file "C:/Users/Namit/Desktop/MIPS/MIPS_Proessor/dataMemoryBlock.v" into library work
+Analyzing Verilog file "C:/Users/Namit/Desktop/MIPS/MIPS_Proessor/branch_predictor.v" into library work
+Analyzing Verilog file "C:/Users/Namit/Desktop/MIPS/MIPS_Proessor/ALU_16_bit.v" into library work
+Analyzing Verilog file "C:/Users/Namit/Desktop/MIPS/MIPS_Proessor/MIPS_16_bit_Processor.v" into library work
+Analyzing Verilog file "C:/Users/Namit/Desktop/MIPS/MIPS_Proessor/MIPS_16_bit_Processor_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "C:/Users/Namit/Desktop/MIPS/MIPS_Proessor/dataMemoryBlock.v" Line 44: Size mismatch in connection of port <dina>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:189 - "C:/Users/Namit/Desktop/MIPS/MIPS_Proessor/dataMemoryBlock.v" Line 45: Size mismatch in connection of port <douta>. Formal port size is 32-bit while actual signal size is 16-bit.
+Completed static elaboration
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="artix...
+Compiling module Program_Mem_Block
+Compiling module Program_memory
+Compiling module DFlipFlop
+Compiling module priEnc
+Compiling module data_dependency
+Compiling module arithshift
+Compiling module booth_multiplication
+Compiling module ALU_16_bit
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="artix...
+Compiling module dataMemory
+Compiling module dataMemoryBlock
+Compiling module reg_bank
+Compiling module stall_control
+Compiling module WriteBack
+Compiling module jump_control
+Compiling module branch_predictor
+Compiling module MIPS_16_bit_Processor
+Compiling module MIPS_16_bit_Processor_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 10 sub-compilation(s) to finish...
+Compiled 25 Verilog Units
+Built simulation executable C:/Users/Namit/Desktop/MIPS/MIPS_Proessor/MIPS_16_bit_Processor_tb_isim_beh.exe
+Fuse Memory Usage: 33828 KB
+Fuse CPU Usage: 625 ms

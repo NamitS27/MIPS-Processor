@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/Namit/Desktop/MIPS/MIPS_Proessor/MIPS_16_bit_Processor_tb_isim_beh.exe" -prj "C:/Users/Namit/Desktop/MIPS/MIPS_Proessor/MIPS_16_bit_Processor_tb_beh.prj" "work.MIPS_16_bit_Processor_tb" "work.glbl" 

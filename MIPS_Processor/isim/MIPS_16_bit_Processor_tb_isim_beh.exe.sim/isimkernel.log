@@ -1,0 +1,29 @@
+Command line:
+   MIPS_16_bit_Processor_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51305
+
+Sun Dec 15 14:40:59 2019
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 5173.28 Meg
+
+ Total Signals          : 565
+ Total Nets             : 2172
+ Total Signal Drivers   : 223
+ Total Blocks           : 65
+ Total Primitive Blocks : 51
+ Total Processes        : 272
+ Total Traceable Variables  : 704
+ Total Scalar Nets and Variables : 4758182
+Total Line Count : 998
+
+ Total Simulation Time: 0.171875 sec
+
+ Current Memory Usage: 5487.85 Meg
+
+Sun Dec 15 14:41:56 2019
+
