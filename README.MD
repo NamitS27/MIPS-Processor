@@ -16,7 +16,7 @@ The operations to be ran on it can be added based on the following table:
 ![Image description](https://github.com/NamitS27/MIPS-Processor/blob/master/Operations.png)
 
 ## Simulating the Processor
-The processor can be simulated by adding an IPCore of Program Memory containing all the instructions as provided in ROM_data.txt. It is a 32x65536 Single Port ROM. Please stay calm while generating the IPCore as Xilinx ISE is a bit slow.
+The processor can be simulated by changing the Program Memory. To do that, please regenerate the IPCore. The ROM is a 32 x 65536 memory. Init file to be added is the ROM_data.txt. Make necessary changes in it before generating the memory based on the previous image. Please stay calm while generating the IPCore as Xilinx ISE is a bit slow.
 
 ## Note
 The branch prediction algorithm only predicts the Jump instructions. It doesnot actually flush the jump values. During that control hazard, the pipeline is stalled for 2 cycles.
