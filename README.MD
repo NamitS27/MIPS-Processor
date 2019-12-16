@@ -24,7 +24,7 @@ The processor can be simulated by changing the Program Memory. To do that, pleas
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/NamitS27/MIPS-Processor/blob/master/LICENSE) file for details
 
 ## Authors
 
