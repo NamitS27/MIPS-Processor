@@ -22,6 +22,10 @@ The processor can be simulated by changing the Program Memory. To do that, pleas
 - Additional details of the processor can be found [**here**](https://github.com/NamitS27/MIPS-Processor/blob/master/MIPS.pdf)
 - The branch prediction algorithm only predicts the Jump instructions. It doesnot actually flush the jump values. During that control hazard, the pipeline is stalled for 2 cycles.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
 ## Authors
 
 * [**Namit Shah**](https://github.com/NamitS27)
