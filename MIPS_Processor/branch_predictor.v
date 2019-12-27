@@ -18,15 +18,15 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module branch_predictor(presentState,prediction,opcode,pc_mux_sel,clk,reset);
+module branch_predictor(presentState,prediction,opcode,pc_mux_sel,clk,reset); 
 
 input pc_mux_sel, clk, reset;
 input [5:0] opcode;
 
-output prediction;
-output [1:0] presentState;
+output prediction;				// jump-prediction bit. 0 = no jump   	1 = jump
+output [1:0] presentState;		// 4 states for 2-bit branch predictor
 
-reg [1:0] present_state;
+reg [1:0] present_state;		// current state
 wire prediction_incorrect;
 reg update;
 
