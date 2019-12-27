@@ -46,8 +46,7 @@ DFlipFlop d4(Q2,clk,Q4,reset);
 
 assign stall_temp = HLT | L_D | JUMP; 
 assign stall = stall_temp;
-assign stall_pm = stall_pm_temp;
+assign stall_pm = stall_pm_temp; // Program Memory stall bit.
 
 endmodule // StallControl
 
-//DFlipFlop is designed here

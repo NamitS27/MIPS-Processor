@@ -27,7 +27,7 @@ input clk,reset;
 output reg [15:0] imm;
 output reg [5:0] op_dec;
 output [4:0] RW_dm;
-output [1:0]mux_sel_A, mux_sel_B;
+output [1:0]mux_sel_A, mux_sel_B;   // forwarding bits for A and B.
 output imm_sel, mem_en_ex, mem_rw_ex, mem_mux_sel_dm;
 
 wire [14:0] and1_out;
@@ -82,7 +82,7 @@ assign and7_out = comp2&(~comp1);
 assign and6_out = (~comp1)&(~comp2)&comp3;
 assign and5_out = (~comp4)&comp5;
 assign and4_out = (~comp4)&(~comp5)&comp6;
-
+//Forwarding value according to the priority of different stages.
 priEnc p1(comp1,and7_out,and6_out,mux_sel_A);
 priEnc p2(comp4,and5_out,and4_out,mux_sel_B);
 

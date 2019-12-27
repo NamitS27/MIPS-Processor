@@ -25,7 +25,7 @@ input [1:0] flag_ex;
 input interrupt,clk,reset;
 
 output [15:0] jmp_loc;
-output pc_mux_sel;
+output pc_mux_sel;	//jump flag bit. 1 = jump, 0 = no-jump
 
 wire wJV,wJNV,wJZ,wJNZ,RET,wInt,flag_mux_sel;
 wire [15:0] next_add,interrupt_mux_out;
