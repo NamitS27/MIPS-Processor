@@ -1,6 +1,6 @@
 # MIPS 16 bit Processor
 MIPS (Microprocessor without Interlocked Pipeline Stages) is a type of microprocessor which has numerous applications ranging
-from Modems, Office automation, set-top boxes, etc. It is a 5 stage 16 bit RISC based microprocessor capable of 29 instructions with a branch predictor algorithm. There is also a special hardware multiplier which is based upon Booth's Algorithm that can multiply two 8 bit numbers. Forwarding and Stalling are also implemented in the main processor to take care of different kinds of hazards
+from Modems, Office automation, set-top boxes, etc. It is a 5 stage 16 bit RISC based microprocessor capable of performing 29 different instructions with a branch predictor algorithm. There is also a special hardware multiplier which is based upon Booth's Algorithm that can multiply two 8 bit numbers. Forwarding and Stalling are also implemented in the main processor to take care of different kinds of hazards
 
 ## Prerequisites
 
@@ -16,7 +16,7 @@ The operations to be ran on it can be added based on the following table:
 ![ImageDescription](https://github.com/NamitS27/MIPS-Processor/blob/master/ALU_operations.png)
 
 ## Simulating the Processor
-The processor can be simulated by changing the Program Memory. To do that, please regenerate the IPCore. The ROM is a 32 x 65536 memory. Init file to be added is the ROM_data.txt. Make necessary changes in it before generating the memory based on the previous image. Please stay calm while generating the IPCore as Xilinx ISE is a bit slow.
+The processor can be simulated by changing the Program Memory. To do that, please regenerate the IPCore. The ROM is a 32 x 65536 memory. Init file to be added is the 'ROM_data.txt'. Make necessary changes in it before generating the memory based on the previous image. Please stay calm while generating the IPCore as Xilinx ISE is a bit slow.
 
 ## Note
 - Additional details of the processor can be found [**here**](https://github.com/NamitS27/MIPS-Processor/blob/master/MIPS.pdf)
